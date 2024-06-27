@@ -1,0 +1,294 @@
+.top_m {
+    color: #fff;
+}
+.aCon {
+    padding: 40px 0 0 40px;
+}
+
+/* 좌측메뉴 */
+.side-top {
+    height: 80px;
+}
+#s1 {
+    height: 100%;
+    background: #f4f5f8;
+    padding: 20px 18px 50px 18px;
+}
+
+.sm_ttl {
+    font-size: 17px;
+    font-weight: 600;
+
+    color: #333;
+    padding: 5px 4px;
+}
+
+.sm_menu_list {
+    background: #fff;
+    width: 200px;
+    height: calc(100vh - 60px);
+    border-right: 1px solid #f1f1f1;
+    overflow: hidden;
+}
+
+.sm_menu_list li {
+    height: 42px;
+    line-height: 42px;
+    font-size: 1rem;
+    /*padding-left:12px;*/
+    width: 195px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sm_menu_list li a {
+    display: inline-block;
+    width: 100%;
+    color: #222;
+    padding-left: 12px;
+}
+
+.disc {
+    float: left;
+    display: block;
+    background: #333;
+    border-radius: 5px;
+    width: 4px;
+    height: 4px;
+    margin-top: 17px;
+    margin-right: 5px;
+}
+
+.sm_menu_list li a:hover {
+    color: #2c3137;
+}
+
+/*서브메뉴 선택 후 오버했을 때*/
+.msel .disc {
+    background: #fff;
+}
+.sm_menu_list .msel {
+    background: #fff;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.sm_menu_list .msel a {
+    color: #2c3137;
+}
+
+/*어드민 페이지 타이틀*/
+.adm-titles {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 24px;
+}
+
+.pTable {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+}
+.pTable th {
+    border: 1px solid #ccc;
+    height: 40px;
+    color: #777;
+    font-weight: 600;
+    font-size: 14px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.pTable td {
+    border: 1px solid #ccc;
+    height: 40px;
+    color: #777;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.nTable td {
+    border: 0px;
+    padding: 0px;
+    height: 10px;
+}
+
+.gTxt {
+    border-top: 2px solid #aaaaaa;
+    color: #777;
+    font-weight: 600;
+    font-size: 13px;
+    background: #f2f2f2;
+    padding: 15px;
+}
+
+.gTable {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+}
+.gTable th {
+    border: 1px solid #ccc;
+    height: 40px;
+    color: #777;
+    font-weight: 600;
+    font-size: 14px;
+    background: #f9f9f9;
+    text-align: left;
+    padding: 0px 0px 0px 15px;
+}
+
+.gTable td {
+    border: 1px solid #ccc;
+    height: 40px;
+    color: #777;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+
+.gTable td table td {
+    border: 0px;
+    padding: 0px;
+    height: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0px 24px;
+    font-size: 0.875rem;
+    color: #fff;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    box-sizing: border-box;
+}
+.btn2 {
+    display: inline-block;
+    padding: 0px 12px;
+    font-size: 0.875rem;
+    color: #fff;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    box-sizing: border-box;
+}
+.btn.blk,
+.btn2.blk {
+    background: #333;
+    color: #fff;
+}
+.btn.blk:hover,
+.btn2.blk:hover {
+    background: #222;
+    transition: 0.2s;
+}
+
+.btn.wht,
+.btn2.wht {
+    border: 1px solid #333;
+    color: #333;
+}
+.btn.wht:hover,
+.btn2.wht:hover {
+    background: #333;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.btn.gry,
+.btn2.gry {
+    background: #878787;
+    color: #fff;
+}
+.btn.gry:hover,
+.btn2.gry:hover {
+    background: #777;
+    transition: 0.2s;
+    color: #fff;
+}
+.btn.grn,
+.btn2.grn {
+    background: #4caf50;
+    color: #fff;
+}
+.btn.grn:hover,
+.btn2.grn:hover {
+    background: #3d8c40;
+    transition: 0.2s;
+    color: #fff;
+}
+.btn.red,
+.btn2.red {
+    background: #d32f2f;
+    color: #fff;
+}
+.btn.red:hover,
+.btn2.red:hover {
+    background: #a92626;
+    transition: 0.2s;
+    color: #fff;
+}
+.btn.blue,
+.btn2.blue {
+    background: #1e5be3;
+    color: #fff;
+}
+.btn.blue:hover,
+.btn2.blue:hover {
+    background: #1a4dbf;
+    transition: 0.2s;
+    color: #fff;
+}
+
+.btn.yel,
+.btn2.yel {
+    background: #ffc000;
+}
+.btn.yel:hover,
+.btn2.yel:hover {
+    background: #cc9a00;
+    transition: 0.2s;
+    color: #fff;
+}
+
+.cbtn.mini {
+    background: #183728;
+    padding: 10px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    min-width: inherit;
+    height: 30px;
+    border-radius: 3px;
+    background: #fff;
+    padding: 0 1.4em;
+    border: 1px solid #e1e1e1 !important;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+select#data01:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(212, 219, 228, 0.5);
+}
+
+.board-select {
+    height: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 0 2em 0 1em;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%235a5c69' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

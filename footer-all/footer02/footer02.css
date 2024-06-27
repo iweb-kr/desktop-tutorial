@@ -1,0 +1,41 @@
+#goTop {position:fixed; bottom:50px; right:88px; display:flex; align-items:center; justify-content:center; width:62px; height:62px; background:rgba(0, 0, 0, 0.13); backdrop-filter:blur(15px); box-shadow:1px 1px 12px rgba(0,0,0,0.1); border-radius:50px; z-index:1; cursor:pointer;}
+#goTop span {color:#fff;}
+
+.footer {background:#434343; padding-bottom:62px;}
+.footer .foot-util {border-bottom:1px solid rgba(255,255,255,.2); padding:20px 0;}
+.footer .sec-center {width:1280px; margin:0 auto;}
+.footer .foot-util .sec-center a {color:rgba(255,255,255,.5); font-size:0.9rem;}
+.footer .foot-util .sec-center a:first-child {color:rgba(255,255,255,1);}
+.footer .foot-util .sec-center a:not(:last-child) {margin-right:1rem;}
+.footer .foot-util .sec-center a:hover {color:rgba(255,255,255,1); transition:.2s;}
+
+.footer .foot-info {display:flex; justify-content:space-between; align-items:center; color:#fff; font-size:0.9rem; margin-top:32px;}
+.footer .foot-info p {line-height:1.8;}
+.footer .foot-info p strong {display:block; font-size:1.125rem; font-weight:600;}
+.footer .foot-info .foot-copy {margin-top:32px; color:rgba(255,255,255,.5); font-size:0.875rem;}
+.footer .foot-info .foot-copy a {margin-left:12px; color:rgba(255,255,255,.3); }
+
+
+
+@media (max-width:1320px) {
+	#goTop {right:20px;}
+	.footer .sec-center  {width:90%;}
+}
+
+
+
+
+@media (max-width: 768px){
+	.footer .foot-info {flex-direction:column-reverse; align-items:flex-start;}
+	.footer .foot-info .info-txt {margin-top:20px;}
+
+
+}
+
+
+
+@media (max-width: 580px){
+	#goTop {bottom:20px; width:48px; height:48px;}
+	.footer .foot-logo {width:180px;}
+	.footer .foot-logo img {max-width:100%;}
+}
